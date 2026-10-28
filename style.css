@@ -1,0 +1,25 @@
+:root{--rubis:#9b1b30;--rubis-fonce:#6e1222;--encre:#1d1518;--gris:#6a5b5f;--fond:#f8f4f5;--ligne:#e2d5d8}
+*{box-sizing:border-box}
+html{scroll-padding-top:1rem}
+body{margin:0;background:var(--fond);color:var(--encre);font:1.0625rem/1.7 "Source Serif 4",Georgia,serif;-webkit-text-size-adjust:100%}
+h1,h2,.marque{font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;letter-spacing:-.02em}
+a{color:var(--rubis)}
+a:focus-visible{outline:3px solid var(--rubis);outline-offset:3px}
+.page{max-width:44rem;margin:0 auto;padding:2rem 1.25rem 4rem}
+.entete{display:flex;align-items:center;gap:.6rem;padding-bottom:1rem;border-bottom:1px solid var(--ligne);margin-bottom:3rem;text-decoration:none;color:var(--encre)}
+.entete svg{width:1.6rem;height:1.6rem}
+.marque{font-weight:700;font-size:1.05rem}
+h1{font-size:clamp(2.4rem,9vw,4rem);line-height:1.02;margin:0 0 1rem;font-weight:800}
+h2{font-size:1.3rem;margin:2.2rem 0 .4rem;font-weight:700;color:var(--rubis-fonce)}
+p{margin:.4rem 0 1rem;max-width:60ch}
+.maj{color:var(--gris);font-size:.95rem}
+.intro{font-size:1.2rem;color:var(--gris);max-width:34ch;margin-bottom:3rem}
+.gemme{width:clamp(5rem,22vw,8rem);height:auto;display:block;margin-bottom:1.5rem}
+.liens{list-style:none;margin:0;padding:0;border-top:1px solid var(--encre)}
+.liens a{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding:1.2rem .25rem;border-bottom:1px solid var(--ligne);text-decoration:none;color:var(--encre);font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;font-size:1.35rem;font-weight:600}
+.liens a small{font:.95rem "Source Serif 4",Georgia,serif;color:var(--gris);font-weight:400}
+.liens a:hover,.liens a:focus-visible{background:var(--rubis);color:#fff;padding-left:1rem;padding-right:1rem;outline-offset:-3px}
+.liens a:hover small,.liens a:focus-visible small{color:#f3d9de}
+.pied{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--ligne);color:var(--gris);font-size:.9rem;display:flex;flex-wrap:wrap;gap:.5rem 1.5rem}
+.todo{border:2px dashed var(--rubis);padding:1rem 1.25rem;border-radius:.4rem;background:#fff}
+@media (prefers-reduced-motion:no-preference){.liens a{transition:background .15s,padding .15s}}
