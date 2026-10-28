@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conditions d’utilisation — La Rubis Scantrad</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Style de secours : s’applique seulement si style.css ne couvre pas cette page */
+    :root {
+      --ru-bg: #fbf7f7;
+      --ru-text: #2a1a1d;
+      --ru-muted: #6e5a5e;
+      --ru-accent: #9b111e;
+      --ru-line: #e6d5d8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ru-bg: #1a1012;
+        --ru-text: #f1e6e8;
+        --ru-muted: #b9a3a8;
+        --ru-accent: #e0525f;
+        --ru-line: #3a2428;
+      }
+    }
+    body { background: var(--ru-bg); color: var(--ru-text); margin: 0; font-family: Georgia, "Times New Roman", serif; line-height: 1.7; }
+    .cu-wrap { max-width: 44rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+    .cu-wrap h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem; }
+    .cu-date { color: var(--ru-muted); margin: 0 0 2rem; }
+    .cu-intro { font-size: 1.1rem; margin-bottom: 2rem; }
+    .cu-wrap section { border-top: 1px solid var(--ru-line); padding-top: 1.25rem; margin-top: 1.5rem; }
+    .cu-wrap h2 { font-size: 1.25rem; margin: 0 0 .5rem; color: var(--ru-accent); }
+    .cu-wrap p { margin: 0 0 1rem; }
+    .cu-back { display: inline-block; margin-bottom: 2rem; color: var(--ru-accent); }
+    .cu-back:focus-visible { outline: 2px solid var(--ru-accent); outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <main class="cu-wrap">
+    <a class="cu-back" href="index.html">Retour à l’accueil</a>
+
+    <h1>Conditions d’utilisation — La Rubis Scantrad</h1>
+    <p class="cu-date">Dernière mise à jour : 28 octobre 2026</p>
+
+    <p class="cu-intro">La Rubis Scantrad est un bot Discord conçu pour gérer les fiches de projets, les affectations du staff et les accès aux dossiers Google Drive.</p>
+
+    <section id="utilisation">
+      <h2>Utilisation autorisée</h2>
+      <p>Le bot doit être utilisé uniquement par les membres autorisés du serveur et dans le cadre des projets gérés par l’équipe.</p>
+    </section>
+
+    <section id="partage">
+      <h2>Partage des dossiers</h2>
+      <p>Les administrateurs et gestionnaires autorisés peuvent demander au bot de partager un dossier Google Drive avec les membres affectés au projet. L’accès effectivement accordé dépend des permissions du compte Google propriétaire du dossier et des règles appliquées par Google Drive.</p>
+    </section>
+
+    <section id="responsabilite">
+      <h2>Responsabilité</h2>
+      <p>Les utilisateurs doivent protéger leurs comptes Discord et Google. L’équipe doit limiter les accès aux personnes qui en ont besoin et retirer les autorisations devenues inutiles.</p>
+    </section>
+
+    <section id="disponibilite">
+      <h2>Disponibilité</h2>
+      <p>Le fonctionnement du bot dépend de Discord, Google Drive, de la configuration de l’installation et de la disponibilité de ces services.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Pour toute question concernant l’utilisation du bot, contactez l’équipe La Rubis Scantrad sur son serveur Discord officiel.</p>
+    </section>
+  </main>
+</body>
+</html>
